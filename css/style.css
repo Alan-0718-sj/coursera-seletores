@@ -1,0 +1,57 @@
+/* Estilo para o link "Pular para o conteúdo principal" */
+.skip-to-content {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+    transition: top 0.3s;
+}
+
+.skip-to-content:focus {
+    top: 0;
+}
+
+/* Comentado o estilo existente para o elemento li */
+/*
+li {
+    list-style-type: none;
+}
+*/
+
+/* Estilo para o elemento nav */
+nav {
+    display: inline-block;
+    width: 80%;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+/* Seletor descendente para a imagem na navegação */
+nav img {
+    width: 10%;
+}
+
+/* Estilo para a classe grid */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Seletor descendente para estilizar somente as imagens na classe grid */
+.grid img {
+    width: 100%;
+}
+
+
+/* Estilo para a classe flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
